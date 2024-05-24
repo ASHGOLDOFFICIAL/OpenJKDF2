@@ -23,7 +23,7 @@ project(OpenJKDF2 VERSION ${OPENJKDF2_PROJECT_VERSION})
 
 # All of our supported platforms
 set(PLAT_LINUX_32 FALSE CACHE BOOL "Linux 32-bit target")
-set(PLAT_LINUX_64 FALSE CACHE BOOL "Linux 64-bit target")
+set(PLAT_LINUX_64 TRUE CACHE BOOL "Linux 64-bit target")
 set(PLAT_MACOS FALSE CACHE BOOL "MacOS target")
 set(PLAT_MACOS_X86_64 FALSE CACHE BOOL "MacOS x86_64")
 set(PLAT_MINGW_X86_64 FALSE CACHE BOOL "MinGW Win64 target")
